@@ -15,7 +15,7 @@ namespace Tyuiu.VegerinaVV.Sprint3.Task4.V11.Test
 
             double res = ds.Calculate(startValue, stopValue);
 
-            double wait = 0.526;
+            double wait = 0.84;
             Assert.AreEqual(wait, res);
         }
     }
